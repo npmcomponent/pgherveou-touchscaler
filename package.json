@@ -1,39 +1,24 @@
 {
-  "name": "touchscaler",
-  "version": "0.0.7",
-  "description": "image scaler for touch device",
-  "author": "PG Herveou",
-  "main": "build/touchscaler.js",
-
-  "repository": {
-    "type": "git",
-    "url": "http://github.com/pgherveou/scaler"
-  },
-
-  "bugs": {
-    "url": "https://github.com/pgherveou/scaler/issues"
-  },
-
+  "name": "pgherveou-touchscaler",
+  "description": "load and scale picture on touch device",
+  "version": "0.0.8",
   "keywords": [
     "image",
     "scale",
     "touch"
   ],
-
-  "license": "MIT",
-
-  "homepage": "https://github.com/pgherveou/scaler",
-
-  "devDependencies": {
-    "mocha": "*",
-    "chai": "*",
-    "grunt": "*",
-    "grunt-shell": "*",
-    "grunt-contrib-jshint": "*",
-    "grunt-contrib-watch": "*",
-    "grunt-contrib-connect": "*",
-    "grunt-contrib-clean": "*"
-  }
-
-
+  "main": "index.js",
+  "styles": [
+    "index.css"
+  ],
+  "dependencies": {
+    "component-event": "git://github.com/npmcomponent/component-event.git",
+    "component-events": "git://github.com/npmcomponent/component-events.git",
+    "pgherveou-prefix": "git://github.com/npmcomponent/pgherveou-prefix.git",
+    "component-query": "git://github.com/npmcomponent/component-query.git",
+    "component-has-translate3d": "git://github.com/npmcomponent/component-has-translate3d.git",
+    "pgherveou-load-image": "git://github.com/npmcomponent/pgherveou-load-image.git",
+    "component-transitionend-property": "git://github.com/npmcomponent/component-transitionend-property.git"
+  },
+  "license": "MIT"
 }

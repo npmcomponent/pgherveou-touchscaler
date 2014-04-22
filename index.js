@@ -2,13 +2,13 @@
  * module deps
  */
 
-var ev = require('event'),
-    events = require('events'),
-    query = require('query'),
-    has3d = require('has-translate3d'),
-    transitionend = require('transitionend-property'),
-    prefix = require('prefix'),
-    loadImage = require('load-image');
+var ev = require('component-event'),
+    events = require('component-events'),
+    query = require('component-query'),
+    has3d = require('component-has-translate3d'),
+    transitionend = require('component-transitionend-property'),
+    prefix = require('pgherveou-prefix'),
+    loadImage = require('pgherveou-load-image');
 
 /*!
  * module globals
